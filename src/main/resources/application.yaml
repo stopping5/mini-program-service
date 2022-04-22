@@ -1,0 +1,15 @@
+# 商品查询信息
+roll:
+  host: https://www.mxnzp.com/api
+  config:
+    appid: sildjspdqpjyxvlz
+    appSecret: cFVnL0FpSDRpMmI5Q3hjUTFkZG5RZz09
+  url:
+    goods: /barcode/goods/details
+logging:
+  level:
+    org:
+      springframework:
+        web:
+          client:
+            RestTemplate: DEBUG
